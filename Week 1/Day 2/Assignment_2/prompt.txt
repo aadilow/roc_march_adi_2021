@@ -1,0 +1,11 @@
+*
+ * Assignment Arrays
+ * -----------------------
+ * 1)Take an array input and find all the prime numbers from it.
+ * 2)Take an array input and find all the palindrome numbers from it.
+ * 3)Take an array input and find the sum of all even numbers.
+ * 4)Take an array input and find the max value and min value from that array.
+ * 5)Take an array input and find the 2nd max value in that array.
+ * 6)Perform CRUD operations on Array
+ * Note:Use the Arrays util class effectively
+ */
