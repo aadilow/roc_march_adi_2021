@@ -1,0 +1,37 @@
+	1)What is RDBMS?
+
+A software system that enables users to define, create, maintain and control access to the database = DBMS
+
+Relational Database Management System.
+
+The data in RDBMS is stored in database objects called tables. 
+--------------------------------------------------------------------------------------------
+	2)Why a developer should learn SQL?
+
+Better for performing operations on large amounts of data entries then excel.
+
+Automation for data analysis and queries.
+
+--------------------------------------------------------------------------------------------
+	3)What is Normalization?
+Reduces rendundancy of data in table.
+
+Ensures dependencies are not affected by Insertions, Updates, and Deletions.
+
+--------------------------------------------------------------------------------------------
+	4)Types of Normalization( till 3NF(third normal form))
+
+--------------------------------------------------------------------------------------------
+	5)ACID properties
+
+--------------------------------------------------------------------------------------------
+	6)Isolation levels
+
+--------------------------------------------------------------------------------------------
+	7)What is postgresSQL? Data types in Postgressql.
+
+--------------------------------------------------------------------------------------------
+	8)What is Integrity Constraints?
+
+--------------------------------------------------------------------------------------------
+	9)Start practicising writing some basic Select statements from hackerrank.com or 	sqlzoo.net or w3schools.com
