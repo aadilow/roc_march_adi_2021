@@ -22,6 +22,7 @@ public class queued {
 
 		L.add(str);
 		L.add(str3);
+		L.add(str2);
 		L.add(x);
 
 		System.out.println(L);
