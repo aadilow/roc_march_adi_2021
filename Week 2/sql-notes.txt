@@ -20,7 +20,11 @@ Ensures dependencies are not affected by Insertions, Updates, and Deletions.
 
 --------------------------------------------------------------------------------------------
 	4)Types of Normalization( till 3NF(third normal form))
+1NF: Cells cannot contain multiple entires. So data is seperated into a new row containing single elements in each column.
 
+2NF: Must be in 1NF form.
+
+3NF
 --------------------------------------------------------------------------------------------
 	5)ACID properties
 
