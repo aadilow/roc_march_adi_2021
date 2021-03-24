@@ -1,0 +1,71 @@
+Function prototypes
+
+Using Scanner input for everything. Use regex to create input constraints.
+
+No syso in this entire project. use log.
+
+User: //Ask if user is customer or employee (user enter 1 or 2)
+
+login() //for customer or employee
+
+	//customer logins with email and password
+	//employee logins with Employee ID and Employee Password
+	//forgot login credentials? not taken care of here. //Go to branch message for customer. //contact supervisor for employee
+
+register() //create new customer account, checkings or savings
+	//ask for name,SSN, email and password (regex to check all)
+	//email will be the check to prevent duplicates
+	//produces 12 digit user account id
+	//produces 9 digit unique account number for created accounts (checking/savings)
+
+*focus less on user stories so not too much personal info for this exercise.
+-------------------------------------------------------------------------------	
+Customer://once user is logged into a customer account
+
+	//customer limit 2 accounts, checking and savings, 1 of each
+	//fast transaction between user's own accounts
+
+openAccount() //checks for existence of account. deny duplicates. some logic here to make second account setup faster
+	//optional initial deposit
+	//limit 1 checking and 1 savings
+
+
+viewBalance() //prints balance from selected account
+
+withdraw()//withdraw from selected account
+
+deposit() //deposit to selected account
+
+transfer() //move funds between user's own account if they have checkings and savings
+
+sendMoney() //sends money to other account numbers within the database
+	//user must enter receiver account number and that account owner full name
+	//deplete from sender account and update account value
+
+receiveMoney() //receives money when sendMoney() performs a valid transaction
+		//update account money value by adding sendMoney() value
+-------------------------------------------------------------------------------
+Employee: 
+	//employee users manually entered into database. 
+	//Could make seperate Admin App where employee accounts are updated in database	
+
+approveAccount()//approve or reject a user created account
+
+viewAccount() //view total account info from entered account. 
+		//Only need to know 12 digit user's account number to get instant result
+		//can call viewLogs() to get user specific transactions once in account
+		
+viewLogs() //view transactions. 2 options
+	//accept user account number input 
+	//if no input then from entire DB
+	//10 most recent
+	//all
+-------------------------------------------------------------------------------
+System: //automated
+
+ValidateTransaction() //called to make sure transactions are valid with some logic
+
+accountCheck() //will be called before being sent to approveAccount(). Auto Denial stage
+
+		//current logic is 1 account per user. 1 email and 1 name and 1 ssn.
+		//duplicates of ssn or email are forbidden. Return some error statement

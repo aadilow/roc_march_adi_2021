@@ -1,0 +1,48 @@
+Tasks
+---------------------------------------------------
+1)Distributed Web Applications
+
+A distributed application is a program that runs on more than one computer and communicates through a network. 
+
+2)Client-Server Architecture
+
+Client Server Architecture is a computing model in which the server hosts, delivers and manages most of the resources and services to be consumed by the client. This type of architecture has one or more client computers connected to a central server over a network or internet connection
+
+3)Client Side Scripting
+
+Client-side scripting (embedded scripts) is code that exists inside the client's HTML page. This code will be processed on the client machine and the HTML page will NOT perform a PostBack to the web-server.
+
+4)Server Side Scripting
+
+A technique used in web development which involves employing scripts on a web server which produce a response customised for each user's (client's) request to the website.
+
+5)How the request made by the client will be processed by server and return back the response.
+
+6)Http protocol
+Hypertext Transfer Protocol
+the foundation of data communication for the World Wide Web
+
+7)http vs https
+
+Is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
+
+The authentication aspect of HTTPS requires a trusted third party to sign server-side digital certificates. 
+
+8)different http status codes
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+9)why http is called as stateless protocol
+HTTP is called as a stateless protocol because each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost.
+
+
+10)http methods or verbs and difference between them.
+
+https://www.restapitutorial.com/lessons/httpmethods.html
+
+basically it is crud
+
+11)Web Server
+12)Application Server
+13)Web Server VS Application Server
+14)JEE Architecture
